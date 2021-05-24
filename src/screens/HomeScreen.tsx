@@ -4,7 +4,6 @@ import { useSafeAreaInsets } from 'react-native-safe-area-context';
 
 import Carousel from 'react-native-snap-carousel';
 import HorizontalSlider from '../components/HorizontalSlider';
-
 import MoviePoster from '../components/MoviePoster';
 import { useMovies } from '../hooks/useMovies';
 
@@ -26,9 +25,6 @@ const HomeScreen = () => {
   return (
     <ScrollView>
       <View style={{ marginTop: top + 20 }}>
-        {/* <MoviePoster
-      movie={peliculasEnCine[2]} /> */}
-
         <View style={{ height: 440 }}>
           <Carousel
             data={popular}
